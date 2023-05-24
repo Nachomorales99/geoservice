@@ -1,7 +1,10 @@
-import Sponsor from "../components/sponsor/Sponsor.jsx";
+import Sponsor from '../components/sponsor/Sponsor.jsx';
 
 export default function Home() {
 	return (
-		<Sponsor />
-	)
+		<>
+			<header>Hola</header>
+			<Sponsor />
+		</>
+	);
 }
