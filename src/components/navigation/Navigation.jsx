@@ -1,19 +1,40 @@
 'use client';
 import { Disclosure } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
-
-const navigation = [
-	{ name: 'Dashboard', href: '#', current: true },
-	{ name: 'Team', href: '#', current: false },
-	{ name: 'Projects', href: '#', current: false },
-	{ name: 'Calendar', href: '#', current: false },
-];
+import { useState } from 'react';
+import Link from 'next/link';
 
 function classNames(...classes) {
 	return classes.filter(Boolean).join(' ');
 }
 
 export default function Navigation() {
+	const [navigation, setNavigation] = useState([
+		{ name: 'Home', href: '/', current: true },
+		{ name: 'Contact', href: '/contact', current: false },
+		{ name: 'Servicios', href: '/servicios', current: false },
+	]);
+
+	function changeCurrent(item) {
+		switch (item.name) {
+			case 'Home':
+				setNavigation([
+					{ name: 'Home', href: '/', current: true },
+					{ name: 'Contact', href: '/contact', current: false },
+					{ name: 'Servicios', href: '/servicios', current: false },
+				]);
+				break;
+
+			case 'Contact':
+				setNavigation([
+					{ name: 'Home', href: '/', current: false },
+					{ name: 'Contact', href: '/contact', current: true },
+					{ name: 'Servicios', href: '/servicios', current: false },
+				]);
+				break;
+		}
+	}
+
 	return (
 		<Disclosure as="nav" style={{ background: '#9f7459' }}>
 			{({ open }) => (
@@ -47,9 +68,10 @@ export default function Navigation() {
 								<div className="hidden sm:ml-6 sm:block">
 									<div className="flex space-x-4">
 										{navigation.map((item) => (
-											<a
+											<Link
 												key={item.name}
 												href={item.href}
+												onClick={() => changeCurrent(item)}
 												className={classNames(
 													item.current
 														? 'bg-gray-900 text-white'
@@ -59,7 +81,7 @@ export default function Navigation() {
 												aria-current={item.current ? 'page' : undefined}
 											>
 												{item.name}
-											</a>
+											</Link>
 										))}
 									</div>
 								</div>
@@ -72,14 +94,12 @@ export default function Navigation() {
 							{navigation.map((item) => (
 								<Disclosure.Button
 									key={item.name}
-									as="a"
 									href={item.href}
-									className={classNames(
-										item.current
-											? 'bg-gray-900 text-white'
-											: 'text-gray-300 hover:bg-gray-700 hover:text-white',
-										'block rounded-md px-3 py-2 text-base font-medium',
-									)}
+									as="a"
+									onClick={() => {
+										changeCurrent(item);
+									}}
+									className="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
 									aria-current={item.current ? 'page' : undefined}
 								>
 									{item.name}
