@@ -12,7 +12,7 @@ export default function Contact() {
 						para proyectos sólidos y exitosos
 					</p>
 				</header>
-				<div className="flex flex-row mt-8">
+				<div className="flex flex-row mt-8 bg-slate-600 items-center justify-center">
 					<div className="flex flex-col mr-8">
 						<div className="flex flex-row mb-8">
 							<div className="flex flex-col items-center justify-center">
