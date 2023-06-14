@@ -44,7 +44,7 @@ const Header = () => {
 	};
 
 	return (
-		<div className="w-full pb-16 relative group">
+		<div className="w-full pb-8 relative group">
 			<div
 				style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
 				className="w-full h-[56.25vw] max-h-[780px] sm:h-[75vw] sm:max-h-[600px] md:h-[40vw] md:max-h-[600px] lg:h-[40vw] lg:max-h-[500px] bg-center bg-cover duration-500 bg-no-repeat"
