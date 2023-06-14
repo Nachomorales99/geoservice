@@ -1,0 +1,142 @@
+{
+	"services": [
+		{
+			"name": "Minería",
+			"service": [
+				"Constitución de Piezómetros",
+				"Freatímetros",
+				"Ensayos de penetración SPT y LPT",
+				"Instalación instrumentos de Auscultación",
+				"Inclinómetros",
+				"Extensómetros",
+				"Termistores",
+				"Piezómetros de cuerda vibrante",
+				"Extracción de muestras de suelos inalteradas",
+				"Ensayos Air Lift",
+				"Ensayos CPT"
+			],
+			"clients": [
+				"POTASIO Y LITIO DE ARGENTINA S.A.",
+				"MINERA ANDINA DEL SOL S.R.L. (Ex BARRICK)",
+				"MANSFIELD MINERA S.A.",
+				"LITIO MINERA ARGENTINA S.A.",
+				"GLENCORE PACHÓN S.A.",
+				"RINCÓN MINING PTY LTD.",
+				"MINERA DON NICOLÁS S.A.",
+				"MORENA DEL VALLE MINERALS S.A.",
+				"PATAGONIA GOLD S.A.",
+				"CALIDRA MINERA TEA",
+				"YAMANA GOLD",
+				"OROPLATA S.A.",
+				"MINA PIRQUITAS LLC.",
+				"MINERA ALUMBRERA LTD.",
+				"SIBELCO ARGENTINA",
+				"MINAS ARGENTINAS S.A.",
+				"GRUPO MINETTI S.A.",
+				"AngloGold Ashanti",
+				"Fomicruz S.E."
+			]
+		},
+		{
+			"name": "Petroleras",
+			"service": [
+				"Constitución de Piezómetros",
+				"Freatímetros",
+				"Ensayos de penetración SPT y LPT",
+				"Estudios para Fundación de Generadores Eólicos",
+				"Estudios para Defensas Aluvionales"
+			],
+			"clients": [
+				"YPF S.A.",
+				"SHELL",
+				"CHEVRON",
+				"ENEL GREEN POWER",
+				"EXXONMOBIL EXPLORATION ARGENTINA",
+				"ACCIONA S.A.",
+				"TECPETROL S.A.",
+				"PECOM ENERGÍA S.A.",
+				"PETROBRAS ENERGÍA S.A.",
+				"PETROLERA ENTRE LOMAS S.A.",
+				"TOTAL S. A.",
+				"SKANSKA S.A.",
+				"OLDELVAL S.A."
+			]
+		},
+		{
+			"name": "Hidroeléctricas",
+			"service": [
+				"Constitución de Piezómetros",
+				"Freatímetros",
+				"Perforación e Instrumentación en Galerías",
+				"Ensayos de penetración SPT y LPT",
+				"Instalación instrumentos de Auscultación",
+				"Inclinómetros",
+				"Extensómetros",
+				"Piezómetros de cuerda vibrante",
+				"Extracción de muestras de suelos inalteradas",
+				"Ensayos de Permeabilidad tipos Lugeon y Lefranc",
+				"Ensayos CPT"
+			],
+			"clients": [
+				"HIDROELÉCTRICA TUCUMÁN S.A.",
+				"HIDROELÉCTRICA RÍO HONDO S.A.",
+				"PAMPA ENERGÍA (HIDISA, HINISA)",
+				"HIDROELÉCTRICA FUTALEUFÚ S.A.",
+				"DISTROCUYO S.A.",
+				"TRANSENER S.A.",
+				"CEMPPSA",
+				"JOSE CARTELLONE CCSA",
+				"TEXIMCO S.A.",
+				"ARC S.R.L.",
+				"PRESA ACHIRAS",
+				"JOSE J. CHEDIACK S.A.I.C.A",
+				"ROMERO CAMMISA S.A.",
+				"OBRA PRESA LAS LAJAS U.T.E.",
+				"H.I.S.S.A.",
+				"HCA CONSULTORA S.R.L.",
+				"TRANSPORTADORA CUYANA S.A.",
+				"IMPSA",
+				"HARZA-HISSA U.T.E.",
+				"GRUPO ISOLUX CORSÁN S.A.",
+				"AES ALICURÁ S.A."
+			]
+		},
+		{
+			"name": "Obras civiles y públicas",
+			"service": [
+				"Extracción de testigos de roca",
+				"Ensayos de penetración SPT y LPT",
+				"Extracción de muestras de suelos inalteradas",
+				"Ensayos de Permeabilidad tipos Lugeon y Lefranc",
+				"Ensayos CPT",
+				"Instalación de instrumentos de Auscultación"
+			],
+			"clients": [
+				"Gobierno de la Provincia de Mendoza",
+				"Gobierno de la Provincia de Córdoba",
+				"Gobierno de la Provincia del Neuquén",
+				"ADI Neuquén",
+				"NASA",
+				"ESTEYCO SAP",
+				"DNV",
+				"JOSÉ J. CHEDIACK S.A.I.C.A.",
+				"ROMERO CAMMISA S.A.",
+				"ASTORI CONSTRUCCIONES S.A.",
+				"CHINA HARBOUR ENGINEERING Co.",
+				"FUNDACIÓN UNIVERSIDAD NACIONAL DE CUYO",
+				"AGUAS DANONE ARGENTINA S.A.",
+				"DISTROCUYO S.A.",
+				"LICCSA",
+				"TRANSENER S.A.",
+				"TOSELLO Y TOSELLO S.A.",
+				"BENITO ROGGIO e Hijos S.A.",
+				"IATASA",
+				"AEROPUERTOS ARGENTINA 2000",
+				"DIPROS S.A.",
+				"INITEC",
+				"RECURSOS ENERGETICOS SAN JUAN",
+				"INDUSTRIAS BASS S.A."
+			]
+		}
+	]
+}

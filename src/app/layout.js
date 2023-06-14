@@ -1,5 +1,6 @@
 import Navigation from '@/components/navigation/Navigation';
 import '../styles/globals.css';
+import Footer from '@/components/footer/Footer';
 
 export const metadata = {
 	title: 'Geoservice',
@@ -20,6 +21,7 @@ export default function RootLayout({ children }) {
 			<body>
 				<Navigation />
 				{children}
+				<Footer />
 			</body>
 		</html>
 	);
