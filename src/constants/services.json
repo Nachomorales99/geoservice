@@ -35,7 +35,8 @@
 				"GRUPO MINETTI S.A.",
 				"AngloGold Ashanti",
 				"Fomicruz S.E."
-			]
+			],
+			"img": "https://res.cloudinary.com/nacho-morales/image/upload/v1686796996/Geoservice/Services/Minera_t883yx.jpg"
 		},
 		{
 			"name": "Petroleras",
@@ -60,7 +61,8 @@
 				"TOTAL S. A.",
 				"SKANSKA S.A.",
 				"OLDELVAL S.A."
-			]
+			],
+			"img": "https://res.cloudinary.com/nacho-morales/image/upload/v1686796995/Geoservice/Services/Petrolera_yslf8g.jpg"
 		},
 		{
 			"name": "Hidroeléctricas",
@@ -99,7 +101,8 @@
 				"HARZA-HISSA U.T.E.",
 				"GRUPO ISOLUX CORSÁN S.A.",
 				"AES ALICURÁ S.A."
-			]
+			],
+			"img": "https://res.cloudinary.com/nacho-morales/image/upload/v1686796995/Geoservice/Services/Hidroelectrica_bdg0yg.jpg"
 		},
 		{
 			"name": "Obras civiles y públicas",
@@ -136,7 +139,8 @@
 				"INITEC",
 				"RECURSOS ENERGETICOS SAN JUAN",
 				"INDUSTRIAS BASS S.A."
-			]
+			],
+			"img": "https://res.cloudinary.com/nacho-morales/image/upload/v1686796996/Geoservice/Services/Obra_civil_zwuuuj.jpg"
 		}
 	]
 }
