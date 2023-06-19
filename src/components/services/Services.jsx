@@ -7,7 +7,7 @@ export default function Services() {
 			{services.map((el, index) => (
 				<div
 					id={el.id}
-					className="w-3/5 shadow-xl my-10 pb-2 rounded-sm  "
+					className="w-3/5 shadow-xl my-10 pb-5 rounded-sm max-sm:w-80"
 					key={index}
 				>
 					<img src={el.img} alt={el.name} className="w-full rounded-md" />
@@ -24,13 +24,13 @@ export default function Services() {
 											{el.name}
 										</h1>
 									</div>
-									<div className="h-8 w-8 border border-gray-700 rounded-full items-center inline-flex justify-center transform transition ease duration-500 group-focus:-rotate-180 absolute top-0 right-0 mb-auto ml-4 mt-6 mr-0">
+									<div className="h-8 w-8 border border-gray-700 rounded-full items-center inline-flex justify-center transform transition ease duration-500 group-focus:-rotate-180 absolute top-0 right-0 mb-auto ml-4 mt-6 mr-2">
 										<BsChevronCompactDown />
 									</div>
 								</div>
-								<div className="group-focus:max-h-screen max-h-0 px-4 overflow-hidden ease duration-500">
+								<div className="group-focus:max-h-screen max-h-0 px-4 overflow-y-auto overflow-x-hidden ease duration-500 ">
 									<h2 className="mx-5 text-gray font-semibold">Servicios</h2>
-									<ul className="flex flex-wrap mx-5 mb-5">
+									<ul className="flex flex-wrap mx-5 mb-5 ">
 										{el.service.map((item, itemIndex) => (
 											<li
 												className="px-4 py-2 mr-2 my-2 rounded-sm shadow-xl bg-beige font-medium text-sm "

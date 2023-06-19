@@ -25,6 +25,7 @@ module.exports = {
 			slate_900: '#0f172a',
 			slate_950: '#020617',
 			slate_700: '#334155',
+			slate_600: '#475569',
 		},
 	},
 	plugins: [],
