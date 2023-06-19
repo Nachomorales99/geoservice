@@ -6,7 +6,8 @@ export default function Map() {
 	const containerStyle = {
 		width: '600px',
 		height: '400px',
-		marginLeft: '2rem',
+		marginLeft: '.25rem',
+		marginRight: '.25rem',
 	};
 
 	const center = {

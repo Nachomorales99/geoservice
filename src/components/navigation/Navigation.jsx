@@ -12,10 +12,10 @@ export default function Navigation() {
 	const [navigation, setNavigation] = useState([
 		{ name: 'Home', href: '/', current: true },
 		{ name: 'Contacto', href: '/contact', current: false },
-		{ name: 'Mineria', href: '#mineria', current: false },
-		{ name: 'Petroleras', href: '#petroleras', current: false },
-		{ name: 'Hidroeléctricas', href: '#hidroelectricas', current: false },
-		{ name: 'Obras', href: '#obras', current: false },
+		{ name: 'Mineria', href: '/#mineria', current: false },
+		{ name: 'Petroleras', href: '/#petroleras', current: false },
+		{ name: 'Hidroeléctricas', href: '/#hidroelectricas', current: false },
+		{ name: 'Obras', href: '/#obras', current: false },
 	]);
 
 	function changeCurrent(item) {
@@ -24,10 +24,14 @@ export default function Navigation() {
 				setNavigation([
 					{ name: 'Home', href: '/', current: true },
 					{ name: 'Contacto', href: '/contact', current: false },
-					{ name: 'Mineria', href: '#mineria', current: false },
-					{ name: 'Petroleras', href: '#petroleras', current: false },
-					{ name: 'Hidroeléctricas', href: '#hidroelectricas', current: false },
-					{ name: 'Obras', href: '#obras', current: false },
+					{ name: 'Mineria', href: '/#mineria', current: false },
+					{ name: 'Petroleras', href: '/#petroleras', current: false },
+					{
+						name: 'Hidroeléctricas',
+						href: '/#hidroelectricas',
+						current: false,
+					},
+					{ name: 'Obras', href: '/#obras', current: false },
 				]);
 				break;
 
@@ -35,10 +39,14 @@ export default function Navigation() {
 				setNavigation([
 					{ name: 'Home', href: '/', current: false },
 					{ name: 'Contacto', href: '/contact', current: true },
-					{ name: 'Mineria', href: '#mineria', current: false },
-					{ name: 'Petroleras', href: '#petroleras', current: false },
-					{ name: 'Hidroeléctricas', href: '#hidroelectricas', current: false },
-					{ name: 'Obras', href: '#obras', current: false },
+					{ name: 'Mineria', href: '/#mineria', current: false },
+					{ name: 'Petroleras', href: '/#petroleras', current: false },
+					{
+						name: 'Hidroeléctricas',
+						href: '/#hidroelectricas',
+						current: false,
+					},
+					{ name: 'Obras', href: '/#obras', current: false },
 				]);
 				break;
 
@@ -46,10 +54,14 @@ export default function Navigation() {
 				setNavigation([
 					{ name: 'Home', href: '/', current: true },
 					{ name: 'Contacto', href: '/contact', current: false },
-					{ name: 'Mineria', href: '#mineria', current: false },
-					{ name: 'Petroleras', href: '#petroleras', current: false },
-					{ name: 'Hidroeléctricas', href: '#hidroelectricas', current: false },
-					{ name: 'Obras', href: '#obras', current: false },
+					{ name: 'Mineria', href: '/#mineria', current: false },
+					{ name: 'Petroleras', href: '/#petroleras', current: false },
+					{
+						name: 'Hidroeléctricas',
+						href: '/#hidroelectricas',
+						current: false,
+					},
+					{ name: 'Obras', href: '/#obras', current: false },
 				]);
 				break;
 
@@ -57,10 +69,14 @@ export default function Navigation() {
 				setNavigation([
 					{ name: 'Home', href: '/', current: true },
 					{ name: 'Contacto', href: '/contact', current: false },
-					{ name: 'Mineria', href: '#mineria', current: false },
-					{ name: 'Petroleras', href: '#petroleras', current: false },
-					{ name: 'Hidroeléctricas', href: '#hidroelectricas', current: false },
-					{ name: 'Obras', href: '#obras', current: false },
+					{ name: 'Mineria', href: '/#mineria', current: false },
+					{ name: 'Petroleras', href: '/#petroleras', current: false },
+					{
+						name: 'Hidroeléctricas',
+						href: '/#hidroelectricas',
+						current: false,
+					},
+					{ name: 'Obras', href: '/#obras', current: false },
 				]);
 				break;
 
@@ -68,10 +84,14 @@ export default function Navigation() {
 				setNavigation([
 					{ name: 'Home', href: '/', current: true },
 					{ name: 'Contacto', href: '/contact', current: false },
-					{ name: 'Mineria', href: '#mineria', current: false },
-					{ name: 'Petroleras', href: '#petroleras', current: false },
-					{ name: 'Hidroeléctricas', href: '#hidroelectricas', current: false },
-					{ name: 'Obras', href: '#obras', current: false },
+					{ name: 'Mineria', href: '/#mineria', current: false },
+					{ name: 'Petroleras', href: '/#petroleras', current: false },
+					{
+						name: 'Hidroeléctricas',
+						href: '/#hidroelectricas',
+						current: false,
+					},
+					{ name: 'Obras', href: '/#obras', current: false },
 				]);
 				break;
 
@@ -79,10 +99,14 @@ export default function Navigation() {
 				setNavigation([
 					{ name: 'Home', href: '/', current: true },
 					{ name: 'Contacto', href: '/contact', current: false },
-					{ name: 'Mineria', href: '#mineria', current: false },
-					{ name: 'Petroleras', href: '#petroleras', current: false },
-					{ name: 'Hidroeléctricas', href: '#hidroelectricas', current: false },
-					{ name: 'Obras', href: '#obras', current: false },
+					{ name: 'Mineria', href: '/#mineria', current: false },
+					{ name: 'Petroleras', href: '/#petroleras', current: false },
+					{
+						name: 'Hidroeléctricas',
+						href: '/#hidroelectricas',
+						current: false,
+					},
+					{ name: 'Obras', href: '/#obras', current: false },
 				]);
 				break;
 		}
