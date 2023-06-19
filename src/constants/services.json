@@ -1,6 +1,7 @@
 {
 	"services": [
 		{
+			"id": "mineria",
 			"name": "Minería",
 			"service": [
 				"Constitución de Piezómetros",
@@ -39,6 +40,7 @@
 			"img": "https://res.cloudinary.com/nacho-morales/image/upload/v1686796996/Geoservice/Services/Minera_t883yx.jpg"
 		},
 		{
+			"id": "petroleras",
 			"name": "Petroleras",
 			"service": [
 				"Constitución de Piezómetros",
@@ -65,6 +67,7 @@
 			"img": "https://res.cloudinary.com/nacho-morales/image/upload/v1686796995/Geoservice/Services/Petrolera_yslf8g.jpg"
 		},
 		{
+			"id": "hidroelectricas",
 			"name": "Hidroeléctricas",
 			"service": [
 				"Constitución de Piezómetros",
@@ -105,6 +108,7 @@
 			"img": "https://res.cloudinary.com/nacho-morales/image/upload/v1686796995/Geoservice/Services/Hidroelectrica_bdg0yg.jpg"
 		},
 		{
+			"id": "obras",
 			"name": "Obras civiles y públicas",
 			"service": [
 				"Extracción de testigos de roca",
