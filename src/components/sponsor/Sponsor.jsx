@@ -2,8 +2,12 @@ import { sponsor } from '../../constants/index.json';
 
 export default function Sponsor() {
 	return (
-		<div>
-			<h1>Confían en nosotros</h1>
+		<>
+			<div className="flex justify-center">
+				<h2 className="mx-5 m-5 text-2xl text-marron_oscuro font-bold border-b-4 pb-2 w-fit text-center">
+					Confían en nosotros
+				</h2>
+			</div>
 			<div className="flex flex-row items-center flex-wrap justify-center gap-10">
 				{sponsor.map((spon) => (
 					<img
@@ -13,6 +17,6 @@ export default function Sponsor() {
 					/>
 				))}
 			</div>
-		</div>
+		</>
 	);
 }

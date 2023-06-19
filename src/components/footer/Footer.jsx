@@ -3,7 +3,7 @@ import Link from 'next/link';
 export default function Footer() {
 	return (
 		<>
-			<footer className="bg-neutral-100 text-center text-neutral-600 dark:bg-neutral-600 dark:text-neutral-200 lg:text-left mt-8">
+			<footer className="text-white bg-slate_900 text-center text-neutral-600 lg:text-left mt-8">
 				<div className="mx-6 py-10 text-center md:text-left">
 					<div className="grid-1 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
 						<div className>
@@ -22,24 +22,36 @@ export default function Footer() {
 								Servicios
 							</h6>
 							<p className="mb-4">
-								<a href="#!" className="text-neutral-600 dark:text-neutral-200">
+								<Link
+									href="#mineria"
+									className="text-neutral-600 dark:text-neutral-200"
+								>
 									Minería
-								</a>
+								</Link>
 							</p>
 							<p className="mb-4">
-								<a href="#!" className="text-neutral-600 dark:text-neutral-200">
+								<Link
+									href="#petroleras"
+									className="text-neutral-600 dark:text-neutral-200"
+								>
 									Petroleras
-								</a>
+								</Link>
 							</p>
 							<p className="mb-4">
-								<a href="#!" className="text-neutral-600 dark:text-neutral-200">
+								<Link
+									href="#hidroelectricas"
+									className="text-neutral-600 dark:text-neutral-200"
+								>
 									Hidroeléctricas
-								</a>
+								</Link>
 							</p>
 							<p>
-								<a href="#!" className="text-neutral-600 dark:text-neutral-200">
+								<Link
+									href="#obras"
+									className="text-neutral-600 dark:text-neutral-200"
+								>
 									Obras civiles y públicas
-								</a>
+								</Link>
 							</p>
 						</div>
 						<div>
@@ -104,7 +116,7 @@ export default function Footer() {
 						</div>
 					</div>
 				</div>
-				<div className="bg-neutral-200 p-6 text-center dark:bg-neutral-700">
+				<div className="text-white bg-slate_950 p-6 text-center">
 					<span>© Geoservice 2023</span>
 				</div>
 			</footer>

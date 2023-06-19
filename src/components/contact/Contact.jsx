@@ -6,8 +6,11 @@ export default function Contact() {
 		<>
 			<section className="flex flex-col items-center justify-center">
 				<header className="flex flex-col items-center justify-center m-8">
-					<h1>Contáctenos</h1>
-					<p>
+					<h1 className="mx-5 m-4 text-2xl text-marron_oscuro font-bold border-b-4 w-fit pb-2">
+						Contáctenos
+					</h1>
+
+					<p className=" flex items-center justify-center mx-2 m-2 text-2xl text-marron_oscuro font-bold w-fit">
 						Expertos en suelos, geotécnica y perforaciones. Tu aliado integral
 						para proyectos sólidos y exitosos
 					</p>
