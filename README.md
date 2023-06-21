@@ -1,7 +1,7 @@
 ## Geoservice
 
 <p align="center"><em>"Expertos en suelos, geotécnica y perforaciones. Tu aliado integral para proyectos sólidos y exitosos"</p> 
-<img src="https://res.cloudinary.com/nacho-morales/image/upload/v1684860890/Geoservice/Logo_hd_pjie2t.png" alt="Geoservice_logo"/>
+<img src="https://res.cloudinary.com/nacho-morales/image/upload/v1684860890/Geoservice/Logo_hd_pjie2t.png" alt="Geoservice_logo" height="70" widtht"60"/>
 
 <br/> <br/>
 
