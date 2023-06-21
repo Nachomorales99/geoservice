@@ -1,6 +1,5 @@
 'use client';
 import { GoogleMap, LoadScript, Marker } from '@react-google-maps/api';
-import API_KEY_GOOGLE_MAPS from '@/constants/apiKey';
 
 export default function Map() {
 	const containerStyle = {
@@ -16,7 +15,7 @@ export default function Map() {
 	};
 
 	return (
-		<LoadScript googleMapsApiKey={API_KEY_GOOGLE_MAPS}>
+		<LoadScript googleMapsApiKey={process.env.API_KEY_GOOGLE_MAPS}>
 			<GoogleMap mapContainerStyle={containerStyle} center={center} zoom={15}>
 				<Marker position={{ lat: -32.9167748, lng: -68.8413216 }} />
 			</GoogleMap>
