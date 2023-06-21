@@ -1,10 +1,13 @@
 import { sponsor } from '../../constants/index.json';
+import { alegreya } from '@/utils/font';
 
 export default function Sponsor() {
 	return (
 		<>
-			<div className="flex justify-center">
-				<h2 className="mx-5 m-5 text-2xl text-marron_oscuro font-bold border-b-4 pb-2 w-fit text-center">
+			<div className="flex justify-center mt-10">
+				<h2
+					className={`mx-5 m-5 text-2xl text-marron_oscuro font-bold border-b-4 pb-2 w-fit text-center ${alegreya.className}`}
+				>
 					Confían en nosotros
 				</h2>
 			</div>

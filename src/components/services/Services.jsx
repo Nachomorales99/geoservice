@@ -1,5 +1,6 @@
 import { services } from '../../constants/services.json';
 import { BsChevronCompactDown } from 'react-icons/bs';
+import { alegreya, roboto } from '@/utils/font';
 
 export default function Services() {
 	return (
@@ -20,7 +21,9 @@ export default function Services() {
 							>
 								<div className="group flex justify-between items-center transition ease duration-500 cursor-pointer pr-10 relative">
 									<div className="transition ease duration-500">
-										<h1 className="mx-5 m-4 text-2xl text-marron_oscuro font-bold border-b-4 w-fit pb-2">
+										<h1
+											className={`mx-5 m-4 text-2xl text-marron_oscuro font-bold border-b-4 w-fit pb-2 ${alegreya.className}`}
+										>
 											{el.name}
 										</h1>
 									</div>
@@ -29,11 +32,15 @@ export default function Services() {
 									</div>
 								</div>
 								<div className="group-focus:max-h-screen max-h-0 px-4 overflow-y-auto overflow-x-hidden ease duration-500 ">
-									<h2 className="mx-5 text-gray font-semibold">Servicios</h2>
+									<h2
+										className={`mx-5 text-gray font-semibold text-lg ${alegreya.className}`}
+									>
+										Servicios
+									</h2>
 									<ul className="flex flex-wrap mx-5 mb-5 ">
 										{el.service.map((item, itemIndex) => (
 											<li
-												className="px-4 py-2 mr-2 my-2 rounded-sm shadow-xl bg-beige font-medium text-sm "
+												className={`px-4 py-2 mr-2 my-2 rounded-sm shadow-xl bg-beige font-medium text-sm ${roboto.className}`}
 												key={itemIndex}
 											>
 												{item}

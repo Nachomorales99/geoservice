@@ -15,44 +15,16 @@ export default function Footer() {
 								/>
 								Geoservice SRL
 							</h6>
-							<p>Estudios integrales del suelo, geotécnica y perforaciones.</p>
+							<p>Estudios integrales del suelo, geotécnica y perforaciones</p>
 						</div>
-						<div className>
+						<div>
 							<h6 className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
 								Servicios
 							</h6>
-							<p className="mb-4">
-								<Link
-									href="#mineria"
-									className="text-neutral-600 dark:text-neutral-200"
-								>
-									Minería
-								</Link>
-							</p>
-							<p className="mb-4">
-								<Link
-									href="#petroleras"
-									className="text-neutral-600 dark:text-neutral-200"
-								>
-									Petroleras
-								</Link>
-							</p>
-							<p className="mb-4">
-								<Link
-									href="#hidroelectricas"
-									className="text-neutral-600 dark:text-neutral-200"
-								>
-									Hidroeléctricas
-								</Link>
-							</p>
-							<p>
-								<Link
-									href="#obras"
-									className="text-neutral-600 dark:text-neutral-200"
-								>
-									Obras civiles y públicas
-								</Link>
-							</p>
+							<p className="mb-4">Minería</p>
+							<p className="mb-4">Petroleras</p>
+							<p className="mb-4">Hidroeléctricas</p>
+							<p className="mb-4">Obras civiles y públicas</p>
 						</div>
 						<div>
 							<h6 className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
