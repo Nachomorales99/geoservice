@@ -1,7 +1,8 @@
-import { sponsor } from '../../constants/index.json';
+import { sponsor } from '@/json/index.json';
 import { alegreya } from '@/utils/font';
 
 export default function Sponsor() {
+	const clients = sponsor;
 	return (
 		<>
 			<div className="flex justify-center mt-10">
@@ -12,8 +13,9 @@ export default function Sponsor() {
 				</h2>
 			</div>
 			<div className="flex flex-row items-center flex-wrap justify-center gap-10">
-				{sponsor.map((spon) => (
+				{clients.map((spon, index) => (
 					<img
+						key={index}
 						src={spon.img}
 						alt={spon.img}
 						className="object-contain w-28 h-28 opacity-50 hover:opacity-100 grayscale transition duration-300 hover:grayscale-0"

@@ -1,11 +1,12 @@
-import { services } from '../../constants/services.json';
+import { services } from '@/json/services.json';
 import { BsChevronCompactDown } from 'react-icons/bs';
 import { alegreya, roboto } from '@/utils/font';
 
 export default function Services() {
+	const service = services;
 	return (
 		<>
-			{services.map((el, index) => (
+			{service.map((el, index) => (
 				<div
 					id={el.id}
 					className="w-3/5 shadow-xl my-10 pb-5 rounded-sm max-sm:w-80"
