@@ -1,8 +1,8 @@
 import Sponsor from '../components/sponsor/Sponsor.jsx'
-import Header from '@/components/header/Header.jsx'
-import Services from '@/components/services/Services.jsx'
-import Machines from '@/components/machines/Machines.jsx'
-import { roboto } from '@/utils/font.js'
+import Header from '../components/header/Header.jsx'
+import Services from '../components/services/Services.jsx'
+import Machines from '../components/machines/Machines.jsx'
+import { roboto } from '../utils/font.js'
 
 export default function Home () {
   return (
