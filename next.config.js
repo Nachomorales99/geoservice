@@ -3,7 +3,7 @@ const nextConfig = {
 	experimental: {
 		appDir: true,
 	},
-	env: { NEXT_PUBLIC_G_KEY: process.env.NEXT_PUBLIC_G_KEY },
+	env: { NEXT_PUBLIC_GOOGLE_KEY: process.env.NEXT_PUBLIC_GOOGLE_KEY },
 };
 
 module.exports = nextConfig;
