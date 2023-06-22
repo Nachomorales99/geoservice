@@ -6,7 +6,7 @@ import { roboto } from '@/utils/font.js'
 
 export default function Home () {
   return (
-  <>
+    <>
   <Header />
   <div className='flex items-center justify-center'>
     <div className='shadow-xl p-4 mx-5 text-center flex items-center justify-center w-fit'>
@@ -20,6 +20,6 @@ export default function Home () {
   </div>
   <Machines />
   <Sponsor />
-</>
+    </>
   )
 }
