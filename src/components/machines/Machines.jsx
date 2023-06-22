@@ -1,7 +1,6 @@
-import { equipment } from '@/json/equipment.json';
+import { equipment } from '@/data/equipment';
 
 export default function Machines() {
-	const machines = equipment;
 	return (
 		<>
 			<div className="flex flex-col justify-center items-center">
@@ -10,7 +9,7 @@ export default function Machines() {
 				</h2>
 
 				<div className="flex flex-wrap justify-center gap-10 px-2">
-					{machines.map((el, index) => (
+					{equipment.map((el, index) => (
 						<div className="w-full sm:w-96 shadow-xl rounded-md" key={index}>
 							<div className="w-full h-72 sm:h-96 overflow-hidden object-center">
 								<img
