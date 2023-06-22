@@ -1,8 +1,7 @@
-import { sponsor } from '@/json/index.json';
+import { clients } from '@/data/clients';
 import { alegreya } from '@/utils/font';
 
 export default function Sponsor() {
-	const clients = sponsor;
 	return (
 		<>
 			<div className="flex justify-center mt-10">
