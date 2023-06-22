@@ -1,12 +1,10 @@
-import Link from 'next/link';
-
 export default function Footer() {
 	return (
 		<>
 			<footer className="text-white bg-slate_900 text-center text-neutral-600 lg:text-left mt-8">
 				<div className="mx-6 py-10 text-center md:text-left">
 					<div className="grid-1 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-						<div className>
+						<div>
 							<h6 className="mb-4 flex items-center justify-center font-semibold uppercase md:justify-start">
 								<img
 									src="https://res.cloudinary.com/nacho-morales/image/upload/v1684860890/Geoservice/Logo_hd_pjie2t.png"
@@ -75,9 +73,9 @@ export default function Footer() {
 									viewBox="0 0 24 24"
 									fill="none"
 									stroke="currentColor"
-									stroke-width="2"
-									stroke-linecap="round"
-									stroke-linejoin="round"
+									strokeWidth="2"
+									strokeLinecap="round"
+									strokeLinejoin="round"
 									className="mr-3 h-5 w-5"
 								>
 									<circle cx="12" cy="12" r="10" />

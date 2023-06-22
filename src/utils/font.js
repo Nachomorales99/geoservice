@@ -1,5 +1,5 @@
-import { Roboto_Serif } from '@next/font/google';
-import { Alegreya } from '@next/font/google';
+import { Roboto_Serif } from "next/font/google";
+import { Alegreya } from "next/font/google";
 
 export const roboto = Roboto_Serif({
 	subsets: ['latin', 'latin-ext'],
