@@ -3,7 +3,7 @@ import Map from '../googleMaps/Map'
 import { AiOutlineClockCircle } from 'react-icons/ai'
 import { HiOutlinePhone } from 'react-icons/hi'
 import { RiMapPinLine, RiMailSendLine } from 'react-icons/ri'
-import { alegreya, roboto } from '../utils/font'
+import { alegreya, roboto } from '../../utils/font'
 
 export default function Contact () {
 	return (
