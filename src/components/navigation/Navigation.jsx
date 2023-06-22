@@ -174,7 +174,12 @@ export default function Navigation() {
 									onClick={() => {
 										changeCurrent(item);
 									}}
-									className="text-gray-300 hover:bg-slate_900 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
+									className={classNames(
+										'text-gray-300 hover:bg-slate_900 hover:text-white block rounded-md px-3 py-2 text-base font-medium',
+										{
+											'bg-slate_900 text-white': item.current,
+										},
+									)}
 									aria-current={item.current ? 'page' : undefined}
 								>
 									{item.name}
