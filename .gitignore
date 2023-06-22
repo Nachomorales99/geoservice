@@ -34,5 +34,5 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# contants 
-apiKey.js
+# package-lock.json
+package-lock.json
