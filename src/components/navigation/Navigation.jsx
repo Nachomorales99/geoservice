@@ -10,7 +10,7 @@ function classNames(...classes) {
 
 export default function Navigation() {
 	const [navigation, setNavigation] = useState([
-		{ name: 'Home', href: '/', current: true },
+		{ name: 'Inicio', href: '/', current: true },
 		{ name: 'Contacto', href: '/contact', current: false },
 		{ name: 'Mineria', href: '/#mineria', current: false },
 		{ name: 'Petroleras', href: '/#petroleras', current: false },
@@ -20,9 +20,9 @@ export default function Navigation() {
 
 	function changeCurrent(item) {
 		switch (item.name) {
-			case 'Home':
+			case 'Inicio':
 				setNavigation([
-					{ name: 'Home', href: '/', current: true },
+					{ name: 'Inicio', href: '/', current: true },
 					{ name: 'Contacto', href: '/contact', current: false },
 					{ name: 'Mineria', href: '/#mineria', current: false },
 					{ name: 'Petroleras', href: '/#petroleras', current: false },
@@ -37,7 +37,7 @@ export default function Navigation() {
 
 			case 'Contacto':
 				setNavigation([
-					{ name: 'Home', href: '/', current: false },
+					{ name: 'Inicio', href: '/', current: false },
 					{ name: 'Contacto', href: '/contact', current: true },
 					{ name: 'Mineria', href: '/#mineria', current: false },
 					{ name: 'Petroleras', href: '/#petroleras', current: false },
@@ -52,7 +52,7 @@ export default function Navigation() {
 
 			case 'Mineria':
 				setNavigation([
-					{ name: 'Home', href: '/', current: true },
+					{ name: 'Inicio', href: '/', current: true },
 					{ name: 'Contacto', href: '/contact', current: false },
 					{ name: 'Mineria', href: '/#mineria', current: false },
 					{ name: 'Petroleras', href: '/#petroleras', current: false },
@@ -67,7 +67,7 @@ export default function Navigation() {
 
 			case 'Petroleras':
 				setNavigation([
-					{ name: 'Home', href: '/', current: true },
+					{ name: 'Inicio', href: '/', current: true },
 					{ name: 'Contacto', href: '/contact', current: false },
 					{ name: 'Mineria', href: '/#mineria', current: false },
 					{ name: 'Petroleras', href: '/#petroleras', current: false },
@@ -82,7 +82,7 @@ export default function Navigation() {
 
 			case 'Hidroeléctricas':
 				setNavigation([
-					{ name: 'Home', href: '/', current: true },
+					{ name: 'Inicio', href: '/', current: true },
 					{ name: 'Contacto', href: '/contact', current: false },
 					{ name: 'Mineria', href: '/#mineria', current: false },
 					{ name: 'Petroleras', href: '/#petroleras', current: false },
@@ -97,7 +97,7 @@ export default function Navigation() {
 
 			case 'Obras':
 				setNavigation([
-					{ name: 'Home', href: '/', current: true },
+					{ name: 'Inicio', href: '/', current: true },
 					{ name: 'Contacto', href: '/contact', current: false },
 					{ name: 'Mineria', href: '/#mineria', current: false },
 					{ name: 'Petroleras', href: '/#petroleras', current: false },
